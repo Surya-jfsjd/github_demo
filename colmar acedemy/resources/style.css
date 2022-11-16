@@ -112,49 +112,47 @@
     height: 200px;
     padding: 16px;
 }
-.section-3{
-    background-color: rgba(224, 255, 255, 0.871);
+.courses {
+    background-color: #efefef;
+    max-width: 100%;
+    padding: 2rem 4.375rem;
+}
+
+.course-boxes {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-container {
     display: block;
+    width: 32%;
+    background-color: #fff;
+    margin-bottom: 1rem;
 }
-.section-3 h3{
-    margin-top: 32px;
-    text-align: center;
+
+.course-image {
+    max-width: 100%;
+    padding-bottom: 0.5rem;
 }
-.row{
-    margin-top: 32px;
-    display: flex;
-    margin-right: 72px;
-    margin-left: 72px;
+
+.course-image img {
+    max-width: 100%;
+    height: auto;
 }
-.row2{
-    margin-top: 32px;
-    display: flex;
-    margin-right: 72px;
-    margin-left: 72px;
+
+.course-text {
+    padding: 0 1rem 0.5rem 1rem;
 }
-.b1 img{
-    height: 300px;
-    width: 300px;
+
+.course-text h4 {
+    display: inline;
 }
-.b2 img{
-    height: 300px;
-    width: 300px;
-}
-.b3 img{
-    height: 300px;
-    width: 300px;
-}
-.b4 img{
-    height: 300px;
-    width: 300px;
-}
-.b5 img{
-    height: 300px;
-    width: 300px;
-}
-.b6 img{
-    height: 300px;
-    width: 300px;
+
+.course-text p {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
 }
 .section-4{
     display: block;
